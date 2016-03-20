@@ -1,0 +1,7 @@
+{
+    "require": {
+        "twbs/bootstrap": "^3.3"
+    },
+
+"kartik-v/bootstrap-star-rating": "@dev"
+}
