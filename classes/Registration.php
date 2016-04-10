@@ -1,5 +1,8 @@
-<?php
 
+<?php
+ /***header("Content-type: text/css; charset: UTF-8"); ?>
+ <link rel="stylesheet" href="css/supercharged.php" media="screen"> **
+ <?php
 /**
  * Class registration
  * handles the user registration
@@ -101,8 +104,10 @@ class Registration
 
                     // if user has been added successfully
                     if ($query_new_user_insert) {
-                        $this->messages[] = "Your account has been created successfully. You can now log in.";
-                    } else {
+                        $this->errors[] = "";
+                        
+         
+                     } else {
                         $this->errors[] = "Sorry, your registration failed. Please go back and try again.";
                     }
                 }

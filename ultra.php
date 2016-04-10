@@ -3,15 +3,16 @@
 
 // Set the page title and include the header file:
 define ('TITLE', 'Bosch');
-include('./header.html');
+include('header.html');
 
 // Display HTML
 ?>
-<div class="container-fluid">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" 
+<div class="container">
  <div class="row">
    <div class="col-sm-6 col-md-4" width="150" height="150">
     <div class="thumbnail">
-        <img src="images/4.png" alt="">
+        <img src="./images/4.png" alt="">
       <div class="caption">
         <h3>CCTV Bosch Ultra</h3>
         <p><strong>$64.99</strong>Ultra high zoom and resolution.</p>
@@ -56,6 +57,6 @@ include('./header.html');
             </div> --> 
         </div> **/
     </div> <!--div container-fluid--->
-  <?php include('./footer.html');?>
+  <?php include('footer.html');?>
 
 

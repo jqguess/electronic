@@ -2,11 +2,13 @@
 /* This is the Product page for Electronic Supply */
 
 // Set the page title and include the header file:
-define ('TITLE', 'Products');
-include('./header.html');
+define ('TITLE', 'products');
+include('header.html');
 
 // Display HTML
 ?>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" 
+<div class="container">
 <div class="row">
     <div class="col-sm-6 col-md-4" width="125" height="150">
     <div class="thumbnail">
@@ -46,4 +48,4 @@ include('./header.html');
   </div>
 </div>
 
-<?php include('./footer.html');?>
+<?php include('footer.html');?>

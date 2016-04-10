@@ -3,7 +3,7 @@
 
 // Set the page title and include the header file:
 
-include('./header.html');
+include('header.html');
 
 // Print some introductory text:
 print '<h2>Login Form</h2>
@@ -57,7 +57,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 
         
 
-include('./footer.html'); // footer file
+include('footer.html'); // footer file
 ?>
 
 

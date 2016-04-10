@@ -3,11 +3,11 @@
 
 // Set the page title and include the header file:
 define ('TITLE', 'Bosch');
-include('./header.html');
+include('header.html');
 
 // Display HTML
 ?>
-<div class="container-fluid">
+<div class="container">
  <div class="row">
    <div class="col-sm-6 col-md-4" width="150" height="150">
     <div class="thumbnail">
@@ -56,4 +56,4 @@ include('./header.html');
             </div> --> 
         </div> **/
     </div> <!--div container-fluid--->
-  <?php include('./footer.html');?>
+  <?php include('footer.html');?>

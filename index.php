@@ -10,7 +10,7 @@
  * @link https://github.com/panique/php-login-minimal/
  * @license http://opensource.org/licenses/MIT MIT License
  */
-include('./header.html');
+include('header.html');
 // checking for minimum PHP version
 if (version_compare(PHP_VERSION, '5.3.7', '<')) {
     exit("Sorry, Simple PHP Login does not run on a PHP version smaller than 5.3.7 !");
@@ -19,7 +19,6 @@ if (version_compare(PHP_VERSION, '5.3.7', '<')) {
     // (this library adds the PHP 5.5 password hashing functions to older versions of PHP)
     require_once("libraries/password_compatibility_library.php");
 }
-
 // include the configs / constants for the database connection
 require_once("config/db.php");
 

@@ -35,13 +35,13 @@ if (isset($registration)) {
     <div class ="row" style="padding-top:10px; padding-left:15px;"> 
     <input type="submit" name="register" value="Register" />
   </div>
-  </div>   
+ </div>   
 </form>
 
 
+
 <!-- backlink -->
-<a href="index.php">Back to Login Page</a>
+<a href="index.php">Login after registering</a>
 </div>
 </div> <!-- for container-fluid -->
 
-<?php include('./footer.html');?>
