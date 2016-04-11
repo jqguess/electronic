@@ -104,16 +104,23 @@ class Registration
 
                     // if user has been added successfully
                     if ($query_new_user_insert) {
-                        $this->errors[] = "";
+                       print '<div class="container"><div class="col-sm-5 col-sm-offset-3"> 
+                        <div class="alert alert-success" style="text-align:center"; role="alert"><h5>
+                         "You are now registered. Please login."</div></div></div></h5>';
                         
-         
+                       
                      } else {
-                        $this->errors[] = "Sorry, your registration failed. Please go back and try again.";
+                        print '<div class="container"><div class="col-sm-5 col-sm-offset-3"> 
+                        <div class="alert alert-danger style="text-align:center"; role="alert"><h5>
+                         "You messed up, therefore you caused this error."</div></div></div></h5>';      
                     }
                 }
             } else {
-                $this->errors[] = "Sorry, no database connection.";
-            }
+               
+                  print '<div class="container"><div class="col-sm-5 col-sm-offset-3"> 
+                        <div class="alert alert-danger style="text-align:center"; role="alert"><h5>
+                     "You messed up, therefore you caused this error."</div></div></div></h5>'; 
+            }    
         } else {
             $this->errors[] = "An unknown error occurred.";
         }

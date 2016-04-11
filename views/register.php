@@ -17,7 +17,7 @@ if (isset($registration)) {
 
     <!-- register form -->
 <div class="col-md-7 col-md-offset-4">
-<form method="post" action="register.php" name="registerform">
+<form method="post" action="newregister.php" name="registerform">
   <div class="form-group">
     <!-- the user name input field uses a HTML5 pattern check -->
     <label for="login_input_username">Username (only letters and numbers, 2 to 64 characters)</label>

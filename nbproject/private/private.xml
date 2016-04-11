@@ -4,18 +4,17 @@
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
             <file>file:/C:/xampp/htdocs/electric2/products.php</file>
-            <file>file:/C:/xampp/htdocs/electric2/css/supercharged.php</file>
             <file>file:/C:/xampp/htdocs/electric2/views/logged_in.php</file>
             <file>file:/C:/xampp/htdocs/electric2/views/register.php</file>
-            <file>file:/C:/xampp/htdocs/electric2/classes/Registration.php</file>
             <file>file:/C:/xampp/htdocs/electric2/config/db.php</file>
-            <file>file:/C:/xampp/htdocs/electric2/header.html</file>
-            <file>file:/C:/xampp/htdocs/electric2/register.php</file>
+            <file>file:/C:/xampp/htdocs/electric2/classes/Login.php</file>
             <file>file:/C:/xampp/htdocs/electric2/welcome.php</file>
             <file>file:/C:/xampp/htdocs/electric2/views/not_logged_in.php</file>
-            <file>file:/C:/xampp/htdocs/electric2/index.php</file>
             <file>file:/C:/xampp/htdocs/electric2/footer.html</file>
-            <file>file:/C:/xampp/htdocs/electric2/classes/Login.php</file>
+            <file>file:/C:/xampp/htdocs/electric2/index.php</file>
+            <file>file:/C:/xampp/htdocs/electric2/classes/Registration.php</file>
+            <file>file:/C:/xampp/htdocs/electric2/header.html</file>
+            <file>file:/C:/xampp/htdocs/electric2/register.php</file>
         </group>
     </open-files>
 </project-private>

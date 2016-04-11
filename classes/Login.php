@@ -89,13 +89,19 @@ class Login
                         $_SESSION['user_login_status'] = 1;
 
                     } else {
-                        $this->errors[] = "Wrong password. Try again.";
+                        print '<div class="container"><div class="col-sm-5 col-sm-offset-3"> 
+                        <div class="alert alert-danger" style="text-align:center"; role="alert"><h5>
+                         "Wrong password!!!  System self destruct mode activated!"</div></div></div></h4>';
                     }
                 } else {
-                    $this->errors[] = "This user does not exist.";
+                        print '<div class="container"><div class="col-sm-5 col-sm-offset-3"> 
+                        <div class="alert alert-danger" style="text-align:center"; role="alert"><h5>
+                         "There is no such user! Try again."</div></div></div></h4>';
                 }
             } else {
-                $this->errors[] = "Database connection problem.";
+                     print '<div class="container"><div class="col-sm-5 col-sm-offset-3"> 
+                        <div class="alert alert-danger" style="text-align:center"; role="alert"><h5>
+                         "There is a DB connection issue, most likely the users error."</div></div></div></h4>';
             }
         }
     }

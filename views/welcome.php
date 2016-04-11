@@ -12,7 +12,7 @@ include('header.html');
             <div class="thumbnail">
 
 
-                <img style="padding-top:25px;" width="261" height="193" src="images/house2.jpg"  alt="">
+                <img style="padding-top:25px;" width="261" height="193" src="../images/house2.jpg"  alt="">
 
             </div>
         </div>
@@ -33,7 +33,7 @@ include('header.html');
         <div class="col-sm-6 col-md-4"style="padding-top: 30px;">
 
             <div class="thumbnail">
-                <img style="padding-top: 20px;padding-right: 10px;" width="310" height="150" src="images/phone.png"  alt="">
+                <img style="padding-top: 20px;padding-right: 10px;" width="310" height="150" src="../images/phone.png"  alt="">
                 </a>
             </div>
         </div>

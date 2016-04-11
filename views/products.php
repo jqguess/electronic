@@ -7,12 +7,12 @@ include('header.html');
 
 // Display HTML
 ?>
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" 
+<!---<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" -->
 <div class="container">
 <div class="row">
     <div class="col-sm-6 col-md-4" width="125" height="150">
     <div class="thumbnail">
-        <img src="images/1.png" alt="">
+        <img src="../images/1.png" alt="">
       <div class="caption">
         <h3>High-Res Bosch LCD</h3>
         <p><strong>$59.99</strong> Great price for a quality all purpose device.</p>
@@ -25,7 +25,7 @@ include('header.html');
 
   <div class="col-sm-6 col-md-4" width="125" height="150">
     <div class="thumbnail">
-      <img src="images/2.png" alt="">
+      <img src="../images/2.png" alt="">
       <div class="caption">
         <h3>Pelco Dome CCTV</h3>
         <p><strong>$74.99</strong> High resolution and zoom, compact size. </p>
@@ -38,7 +38,7 @@ include('header.html');
 
   <div class="col-sm-6 col-md-4" width="125" height="150">
     <div class="thumbnail">
-        <img src="images/4.png" alt="">
+        <img src="../images/4.png" alt="">
       <div class="caption">
           <h3>CCTV Bosh Ultra </h3>
           <p><strong>$64.99</strong> Ultra high zoom and high resolution.</p>
