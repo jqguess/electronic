@@ -1,5 +1,16 @@
 # This file prevents that your .php view files are accessed directly from the outside
-<Files ~ "\.(htaccess|php)$">
-order allow,deny
-allow from all
+# and prevents unwanted intrusion. 
+<Files logged_in.php>
+   order allow,deny
+   deny from all
+</Files>
+
+<Files register.php>
+    Order Allow,Deny
+    Allow from all
+</Files>
+
+<Files not_logged_in.php>
+    Order Allow,Deny
+    Allow from all
 </Files>

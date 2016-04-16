@@ -17,7 +17,7 @@ if (isset($registration)) {
 
     <!-- register form -->
 <div class="col-md-7 col-md-offset-4">
-<form method="post" action="newregister.php" name="registerform">
+<form method="post" action="views/newregister.php" name="registerform">
   <div class="form-group">
     <!-- the user name input field uses a HTML5 pattern check -->
     <label for="login_input_username">Username (only letters and numbers, 2 to 64 characters)</label>
@@ -41,7 +41,7 @@ if (isset($registration)) {
 
 
 <!-- backlink -->
-<a href="index.php">Login after registering</a>
+<a href="index.php"><strong>Login</strong></a>
 </div>
 </div> <!-- for container-fluid -->
 

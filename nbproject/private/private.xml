@@ -3,18 +3,25 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/xampp/htdocs/electric2/products.php</file>
-            <file>file:/C:/xampp/htdocs/electric2/views/logged_in.php</file>
-            <file>file:/C:/xampp/htdocs/electric2/views/register.php</file>
-            <file>file:/C:/xampp/htdocs/electric2/config/db.php</file>
-            <file>file:/C:/xampp/htdocs/electric2/classes/Login.php</file>
-            <file>file:/C:/xampp/htdocs/electric2/welcome.php</file>
-            <file>file:/C:/xampp/htdocs/electric2/views/not_logged_in.php</file>
-            <file>file:/C:/xampp/htdocs/electric2/footer.html</file>
-            <file>file:/C:/xampp/htdocs/electric2/index.php</file>
-            <file>file:/C:/xampp/htdocs/electric2/classes/Registration.php</file>
-            <file>file:/C:/xampp/htdocs/electric2/header.html</file>
-            <file>file:/C:/xampp/htdocs/electric2/register.php</file>
+            <file>file:/C:/xampp/htdocs/electronicsupply/views/not_logged_in.php</file>
+            <file>file:/C:/xampp/htdocs/electronicsupply/README.md</file>
+            <file>file:/C:/xampp/htdocs/electronicsupply/views/header.html</file>
+            <file>file:/C:/xampp/htdocs/electronicsupply/views/newregister.php</file>
+            <file>file:/C:/xampp/htdocs/electronicsupply/composer.json</file>
+            <file>file:/C:/xampp/htdocs/electronicsupply/views/login.php</file>
+            <file>file:/C:/xampp/htdocs/electronicsupply/views/register.php</file>
+            <file>file:/C:/xampp/htdocs/electronicsupply/views/products.php</file>
+            <file>file:/C:/xampp/htdocs/electronicsupply/classes/Login.php</file>
+            <file>file:/C:/xampp/htdocs/electronicsupply/.gitignore</file>
+            <file>file:/C:/xampp/htdocs/electronicsupply/views/.htaccess</file>
+            <file>file:/C:/xampp/htdocs/electronicsupply/index.php</file>
+            <file>file:/C:/xampp/htdocs/electronicsupply/views/logged_in.php</file>
+            <file>file:/C:/xampp/htdocs/electronicsupply/views/bosch.php</file>
+            <file>file:/C:/xampp/htdocs/electronicsupply/config/db.php</file>
+            <file>file:/C:/xampp/htdocs/electronicsupply/views/pelco.php</file>
+            <file>file:/C:/xampp/htdocs/electronicsupply/views/welcome.php</file>
+            <file>file:/C:/xampp/htdocs/electronicsupply/classes/Registration.php</file>
+            <file>file:/C:/xampp/htdocs/electronicsupply/views/ultra.php</file>
         </group>
     </open-files>
 </project-private>

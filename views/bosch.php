@@ -11,11 +11,11 @@ include('header.html');
  <div class="row">
    <div class="col-sm-6 col-md-4" width="150" height="150">
     <div class="thumbnail">
-        <img src="../images/1.png" alt="">
+        <img src="images/1.png" alt="">
       <div class="caption">
         <h3>CCTV Bosch</h3>
         <p><strong>$59.99</strong> Great price for a quality all purpose device.</p>
-        <p><a href="products.php" class="btn btn-primary" role="button">Back to Products</a> <a href="https://paypal.com" class="btn btn-default" role="button">Checkout with PayPal</a></p>
+        <p><a href="views/products.php" class="btn btn-primary" role="button">Back to Products</a> <a href="https://paypal.com" class="btn btn-default" role="button">Checkout with PayPal</a></p>
       </div>
     </div>
    </div>  
@@ -40,20 +40,6 @@ include('header.html');
      </h4>
     </div>
  </div>   
-   <!--- <div class="row"> future comment section
-        <div class="col-sm-6 col-md-4" style="text-align: justify">
-            <h3>
-                Reviews
-            </h3>
-                  <div class="blockquotes">    
-            <p style="font-size: 18px;">
-             We offer a wide variety of electronic solutions for businesses and homes. If your in need of security  
-             we have you covered with a huge selection of alarms and cameras. We also have a multitude of electronic components and wiring of any type at wholesale
-             prices. Electronic supply also offers home convenience products such as lighting and thermostats. Our partners are Nutone, Simply Automated, 
-             Channel Master, Net Media, HAI to name a few. Give us a try on your next installation!
-            </p>
-            </div>
-            </div> --> 
-        </div> 
-    </div> <!--div container-fluid--->
+</div> 
+  <!--div container-fluid--->
   <?php include('footer.html');?>

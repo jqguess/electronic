@@ -1,9 +1,8 @@
 
 <?php
- /***header("Content-type: text/css; charset: UTF-8"); ?>
- <link rel="stylesheet" href="css/supercharged.php" media="screen"> **
- <?php
-/**
+ /***
+ *
+ *
  * Class registration
  * handles the user registration
  */

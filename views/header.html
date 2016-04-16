@@ -12,11 +12,11 @@ ob_start();
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
         <title>Electronic Supply</title>
-
-        <!-- Bootstrap Font awesome Star Rating -->
+        <!-- Bootstrap Font awesome -->
+        <base href="http://localhost/electronicsupply/">
+        
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-        <link href="../css/bootstrap.css" rel="stylesheet">
-        <link href="path/to/css/star-rating.css" media="all" rel="stylesheet" type="text/css" />
+        <link href="css/bootstrap.css" rel="stylesheet"> 
         <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
         <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
         <!--[if lt IE 9]>
@@ -24,34 +24,32 @@ ob_start();
           <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
         <![endif]-->
         <script data-main="scripts/bootstrap.min.js" src="scripts/require.js"></script>
-        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-        <!-- Include all compiled plugins (below), or include individual files as needed -->
-        <script src="../js/bootstrap.min.js"></script>
     </head>
     <body>
+      
         <!-- JS outside of <head> for known bootstrap workaround-->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
         <!-- Include all compiled plugins (below), or include individual files as needed -->
-        <script src="../js/bootstrap.min.js"></script>
-        <script src="path/to/js/star-rating.js" type="text/javascript"></script>
+        <script src="js/bootstrap.min.js"></script>
+        
         <!--- Script for js dropdown box  in use -->
         <script>
             $(document).ready(function () {
                 $('.dropdown-toggle').dropdown();
             });
         </script>   
-
+       
+        <!--- Start of Header Navbars and Dropdowns -->
         <nav class="navbar navbar-inverse">
             <div class="container-fluid">
                 <div class="navbar-header" style="padding-left: 25px;">
-                    <a class="navbar-brand" href="welcome.php">Electronic Supply</a> 
+                    <a class="navbar-brand" href="views/welcome.php"><strong><i>Electronic Supply</i></strong></a> 
                     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>                        
                     </button>
-                    <!---<a class="navbar-brand" href="welcome.php">Electronic Supply</a> -->
+                    
                 </div>
                 <div class="collapse navbar-collapse" id="myNavbar">
                     <ul class="nav navbar-nav">
@@ -60,9 +58,9 @@ ob_start();
                                 <span class="glyphicon glyphicon-menu-hamburger"></span>
                             </button>
                             <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
-                                <li><a href="products.php">Products</a></li>
-                                <li><a href=""></a></li>
-                                <li><a href="https://github.oom/jqguess">GitHub for JQGuess</a></li>
+                                <li><a href="views/products.php">Products</a></li>
+                                <li><a href="views/welcome.php">About Electronic Supply</a></li>
+                                <li><a href="https://github.com/jqguess">GitHub for JQGuess</a></li>
                                 <li><a href=""></a></li>
                                 <li><a href="https://www.linkedin.com/in/jonathan-guess-084683111">Linkedin</a></li>
                                 <li><a href=""></a></li>
@@ -71,7 +69,7 @@ ob_start();
                     </ul>
 
                     <ul class="nav navbar-nav navbar-right">
-                        <li><a href="newregister.php"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+                        <li><a href="views/newregister.php"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
                         <li><a href="index.php"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
                     </ul>
                 </div>
@@ -83,7 +81,7 @@ ob_start();
             <div class="container">
                 <div class="row">
                     <div class="col-md-4 col-md-offset-3">
-                        <img src="../images/electric.jpg" class= "img-responsive" alt="...">
+                        <img src="images/electric.jpg" class= "img-responsive" alt="...">
                     </div>
                 </div>
             </div>

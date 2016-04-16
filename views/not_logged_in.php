@@ -32,7 +32,7 @@ if (isset($login)) {
     </div>
     </div>    
 </form>
-<a href="newregister.php">Register new account</a>
+<a href="views/newregister.php">Register new account</a>
 </div>
     
 </div>
