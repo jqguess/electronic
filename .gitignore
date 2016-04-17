@@ -1,8 +1,10 @@
-# Electronic Supply Git Ignore  
+# Electronic Supply .gitignore  
 
 *.mobi
 *.git
-
+*.json
 #Directories
 /vendor
 /nbproject
+/composer
+/css
