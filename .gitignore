@@ -4,7 +4,7 @@
 *.git
 *.json
 #Directories
-/vendor
+*.idea
 /nbproject
-/composer
-/css
+/composer.lock
+
