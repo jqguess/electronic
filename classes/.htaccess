@@ -1,0 +1,16 @@
+# This file prevents that your .php files are accessed directly from the outside
+# and prevents unwanted intrusion. 
+<Files logged_in.php>
+   order allow,deny
+   deny from all
+</Files>
+
+<Files Register.php>
+    Order Allow,Deny
+    deny from all
+</Files>
+
+<Files Login.php>
+    Order Allow,Deny
+    deny from all
+</Files>
